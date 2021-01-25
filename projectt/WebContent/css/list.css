@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* 버튼 */
+
+button.alt, .button.alt {
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px #3d81ac;
+	color: #3d81ac !important;
+}
+
+button.alt:hover, .button.alt:hover {
+	background: #e8f5ff;
+}
+
+button, .button {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s
+		ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s
+		ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s
+		ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	border-radius: 0;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: 700;
+	height: 3.5em;
+	line-height: 3.65em;
+	padding: 0 2.25em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/* 목록 */
+ul.actions {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.actions li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+	vertical-align: middle;
+}
+
+ul.actions li:last-child {
+	padding-right: 0;
+}
+
+ul.actions.small li {
+	padding: 0 0.5em 0 0;
+}
+
+ul.actions.vertical li {
+	display: block;
+	padding: 1em 0 0 0;
+}
+
+hr {
+	border-bottom-color: #3d81ac;
+	margin-right: 20px;
+}
+
+div, form, img, input {
+	box-sizing: border-box;
+}
+
+#content {
+	padding-top: 10%;
+}
+
+#content>div {
+	height: 100%
+}
+
+#content_1 {
+	width: 240px;
+	/*width: 15%;*/
+	position: fixed;
+	height: 100%;
+	/*position: fixed;*/
+}
+
+#content_2 {
+	width: 90%;
+	float: right;
+}
+
+#sidebar {
+	margin-left: 20px;
+}
+
+#sidebar li {
+	width: 40%;
+	height: 100%;
+	font-size: 15px;
+	line-height: 50px;
+}
+
+#sidebar li a {
+	color: black
+}
+
+#sidebar li:hover>a:hover {
+	text-decoration: underline;
+}
+
+#content_2 #prdList #prd #box {
+	width: 15%;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	color: black;
+}
+
+/*이미지 크기 설정*/
+#content_2 #prdList #prd #box img {
+	width: 150px;
+	height: 200px;
+	position: relative;
+}
+
+#prdFont {
+	height: 20px;
+	color: black;
+	overflow: hidden;
+}
+
+legend {
+	visibility: hidden;
+}
+
+fieldset {
+	border: none;
+}
+
+#content_2 #searchForm {
+	margin-right: 20px
+}
+
+#content_2 #searchForm #searchImg {
+	float: right;
+	width: 25px;
+	height: 25px;
+}
+
+#content_2 #searchForm #keyword {
+	float: right;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+}
+
+#lookOp {
+	margin: 0;
+	height: 40px;
+	float: right;
+	padding: 0;
+}
+
+#lookOp li {
+	float: left;
+	width: 2px;
+	height: 10px;
+	text-align: center;
+	font-size: 9px;
+	line-height: 30px;
+}
+
+#lookOp .lookOpSel {
+	float: left;
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+#look {
+	float: left;
+}
+
+.thumbnail {
+	float: left;
+	margin-left: 15px;
+	position: relative;
+}
+
+.thumbnail p {
+	text-align: center;
+}
+
+#kk {
+	width: 205px;
+	height: 50px;
+	overflow: hidden;
+}
+
+/* 하단 */
+#writeBtn {
+	visibility: hidden;
+	positon: relative;
+}
+
+#button1 {
+	float: right;
+	margin-right: 20px;
+	border: 0;
+	background: 0;
+	font-size: 12px;
+}
