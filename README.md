@@ -1,5 +1,6 @@
 # Arkadass
 semiProject
+> [프레젠테이션](https://www.miricanvas.com/v/17nffn)
 
 ### Part : nutrient
 * [nutrientBoard](https://github.com/osh11/Arkadas-project/tree/main/projectt/src/com/kh/nutrient)  
